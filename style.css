@@ -18,7 +18,7 @@ h1{
     color:#EF233C;
     font-weight: 3em;
     font-family: Impact;
-    font-weight: bold;  
+    font-weight: bold;
 }
 
 h3{
@@ -55,4 +55,16 @@ ul{
 
 span{
     color:red;
+}
+
+#pic1{
+
+}
+
+#avion{
+    width:350px;
+}
+
+#article_blog_droite{
+    
 }
