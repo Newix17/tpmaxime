@@ -1,0 +1,29 @@
+#banniere{
+    width:800px;
+    height:200px;
+    background-color: aquamarine;
+}
+
+body{
+    background: radial-gradient(#EDF2F4,#CCDAE0);
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    color:#EF233C;
+    font-weight: 2em;
+    font-family: Impact;  
+}
+
+h3{
+    color:#2B2D42;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+.imgart{
+    border: solid 2px;
+}
