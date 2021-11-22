@@ -1,12 +1,13 @@
 #banniere{
     width:800px;
     height:200px;
-    background-color: aquamarine;
-    align-items: center;
+    margin:auto;
+    border: solid 15px rgb(128, 124, 124);
+    border-radius:1em;
 }
 
 body{
-    background: radial-gradient(#EDF2F4,#CCDAE0);
+    background: radial-gradient(#CCDAE0,#EDF2F4);
 }
 
 header{
@@ -15,19 +16,19 @@ header{
 
 h1{
     color:#EF233C;
-    font-weight: 2em;
+    font-weight: 3em;
     font-family: Impact;
-    text-decoration: underline dashed;  
+    font-weight: bold;  
 }
 
 h3{
     color:#2B2D42;
-    text-decoration:underline;
+    text-decoration:underline dashed;
     font-weight: bold;
 }
 
 .imgart{
-    border: solid 1px;
+    border: solid 2px #8D99AE;
     margin-left:40vw;
     margin-right:40vw;
 }
@@ -46,4 +47,12 @@ a{
 
 a:hover{
     color:#2B2D42;
+}
+
+ul{
+    list-style-type: none;
+}
+
+span{
+    color:red;
 }
