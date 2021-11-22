@@ -2,6 +2,7 @@
     width:800px;
     height:200px;
     background-color: aquamarine;
+    align-items: center;
 }
 
 body{
@@ -15,7 +16,8 @@ header{
 h1{
     color:#EF233C;
     font-weight: 2em;
-    font-family: Impact;  
+    font-family: Impact;
+    text-decoration: underline dashed;  
 }
 
 h3{
@@ -25,5 +27,23 @@ h3{
 }
 
 .imgart{
-    border: solid 2px;
+    border: solid 1px;
+    margin-left:40vw;
+    margin-right:40vw;
+}
+
+.article{
+    border: solid 1px;
+}
+
+footer{
+    text-align:right;
+}
+
+a{
+    color:#D90429;
+}
+
+a:hover{
+    color:#2B2D42;
 }
