@@ -1,0 +1,29 @@
+p:first-of-type{
+    background-color: grey;
+    border: solid green;
+    height: 100px;
+    padding:20px;
+    margin:0px;
+}
+
+p:nth-of-type(2){
+    background-color: grey;
+    border: solid green;
+    width:50%;
+    padding:1.2em;
+    margin: 20px 5px;
+}
+
+p:nth-of-type(3){
+    background-color: grey;
+    border: solid green;
+    height:200px;
+    width:200px; 
+    margin:auto;
+}
+
+body{
+    padding:0px;
+    margin:0px;
+    background-color: rgb(100, 51, 100);    
+}

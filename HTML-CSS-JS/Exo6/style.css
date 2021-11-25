@@ -1,0 +1,36 @@
+h1{
+    color: red;
+    text-align:center;
+    font-size: 4em;
+}
+
+h3{
+    color: blue;
+    font-size: 2em;
+}
+
+p{
+    background-color: grey;
+}
+
+strong{
+    color: yellowgreen;
+    font-style:normal;
+
+}
+
+em{
+    color:orange;
+    font-style:normal;
+    text-decoration:underline;
+}
+
+#p1{
+    background-color:pink;
+}
+
+#h3_2{
+    color:green;
+    text-align:right;
+    text-decoration: underline;
+}

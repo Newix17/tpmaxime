@@ -1,0 +1,40 @@
+#container{
+    display:grid;
+    grid-template-columns:70% 30%;
+    grid-template-rows: 10% 80% 10%;
+    background-color: rgb(180, 177, 177);
+}
+
+h1{
+    justify-self: center;
+    background-color: lightsalmon;
+}
+
+#list{
+    justify-self: center;
+    background-color: lightseagreen;
+} 
+
+#parent_form{
+    display: grid;
+    grid-column: 1;
+    align-items: flex-end;
+}
+
+form{
+    display:flex;
+    background-color: limegreen;
+    height:30px;
+    align-items: center;
+}
+
+#tchat{
+    grid-column:1;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: mediumturquoise;
+}
+
+#tchat div:nth-child(2n, 1){
+    color:red;
+}

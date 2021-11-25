@@ -1,0 +1,84 @@
+caption{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    color:rgb(221, 118, 135);
+}
+
+th{
+    background-color: pink;
+}
+
+table{
+    border: solid 2px darkmagenta;
+}
+
+td{
+    border-right: solid 1px darkorchid;
+    border-left: solid 1.5px rgb(184, 122, 216);
+    border-bottom: solid 1px darkorchid;
+}
+
+td:nth-of-type(3n+2){
+    text-align:center;
+    width:350px;
+}
+
+td:nth-of-type(3n+3){
+    text-align:right;
+    width:150px;
+}
+
+td:nth-of-type(3n+1){
+    text-align:left;
+    width:100px;
+}
+
+a{
+    color:black;
+}
+
+a:visited{
+    color:magenta;
+}
+
+#tablo2{
+    margin-left: 30%;
+    box-shadow: -5px 5px 10px rgb(34, 26, 26);
+}
+
+table{
+    box-shadow: 0px 0px 25px pink;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+#tablo2 th{
+    background-color: lightblue;
+}
+
+#tablo2 th:hover{
+    background-color: lightseagreen;
+}
+
+#tablo2 th:active{
+    background-color: red;
+}
+
+td:nth-last-child(2){
+    text-align: center;
+    width:30vw;
+}
+
+td:nth-last-child(1){
+    width:5vw;
+    text-align: center;
+}
+
+td:nth-last-child(3){
+    width:15vw;
+}
+
+#bla{
+    text-align: center;
+}
+

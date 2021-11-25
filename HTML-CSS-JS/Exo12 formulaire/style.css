@@ -1,0 +1,33 @@
+label{
+    width:10vw;
+}
+
+input{
+    margin-left:4vw;
+}
+
+table{
+    border: solid rgb(219, 25, 226) 4px;
+    border-radius: 0.5em;
+    background: linear-gradient(lightblue, lightpink);
+    margin-left:40vw;
+}
+
+td{
+    width:8vw;
+    height: 3vw;
+}
+
+#com1{
+    text-align: center;
+    font-style: italic;
+}
+
+#butt{
+    text-align: center;
+}
+
+td:nth-last-of-type(1){
+    text-align: right;
+}
+
