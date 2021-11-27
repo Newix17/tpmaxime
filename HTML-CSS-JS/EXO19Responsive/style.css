@@ -82,11 +82,23 @@ section{
     grid-row: 2;
 }
 
+.div_title{
+    height:60px;
+}
+
+.h2_article{
+    padding-left:20px;
+}
+
 section div{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-column: 1 /span 2;
+    background: linear-gradient(rgb(204, 200, 200), rgb(48,47,47));
+    border-radius: 1em;
+    margin-bottom: 20px;
+    border:solid 1px black;
 }
 
 section div img{
@@ -100,17 +112,11 @@ aside img{
     margin-bottom: 15px;
     justify-self: center;
     border: solid 1px;
+    box-shadow: 3px 3px 3px black;
 }
 
 aside h2{
     text-align: center;
-}
-
-section div{
-    background: linear-gradient(rgb(204, 200, 200), rgb(48,47,47));
-    border-radius: 1em;
-    margin-bottom: 20px;
-    border:solid 1px black;
 }
 
 footer{
@@ -122,7 +128,7 @@ footer{
 }
 
 #ul_footer{
-    height:100px;
+    height:80px;
     display:flex;
     justify-content:space-evenly;
     align-content:center;
