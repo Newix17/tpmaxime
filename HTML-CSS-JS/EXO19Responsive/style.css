@@ -17,6 +17,7 @@ header{
 
 h1{
     text-shadow: 3px 3px 3px rgb(204, 200, 200);
+    font-family: 'Franklin Gothic Medium';
     }
 
  
@@ -54,6 +55,13 @@ li{
     height:30px;
     border-radius: 0.5em;
     list-style-type: none;
+    box-shadow: 5px 5px 7px rgb(58, 57, 57);
+    font-family: 'Franklin Gothic Medium';
+}
+
+li:hover{
+    box-shadow: 2px 2px 3px rgb(17, 17, 17);
+    transition: 0.5s;
 }
 
 a{
@@ -112,7 +120,13 @@ aside img{
     margin-bottom: 15px;
     justify-self: center;
     border: solid 1px;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: 5px 5px 7px rgb(58, 57, 57);
+}
+
+aside img:hover{
+    box-shadow: 2px 2px 3px rgb(17, 17, 17);
+    transition: 0.5s;
+
 }
 
 aside h2{
@@ -138,4 +152,9 @@ footer{
     text-align: center;
     height:50px;
     width:90px;
+}
+
+h2{
+    text-shadow: 3px 3px 3px rgb(139, 137, 137);
+    font-family: 'Franklin Gothic Medium';
 }
