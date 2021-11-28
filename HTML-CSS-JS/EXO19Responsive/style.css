@@ -30,7 +30,8 @@ header img{
 }
 
 nav{
-    margin-right: 15px;
+    margin: 15px;
+    margin-top: 0;
     grid-column: 1;
     border:solid 1px;
     height:300px;
@@ -83,7 +84,8 @@ aside{
     border-radius: 0 0.5em 0 0.5em;
     border:solid 1px;
     justify-content: space-evenly;
-    margin-left: 15px;
+    margin: 15px;
+    margin-top:0;
 }
 
 section{
@@ -118,6 +120,8 @@ section div img{
     border-radius: 0.5em;
     margin: 5px 5px;
     border: solid 1px;
+    margin-bottom: 15px;
+
 }
 
 .article{
@@ -153,6 +157,7 @@ footer{
     border:solid 1px black;
     background: rgb(90, 89, 89);
     border-radius: 0 0.5em 0 0.5em;
+    grid-column: span 3;
 }
 
 #ul_footer{
