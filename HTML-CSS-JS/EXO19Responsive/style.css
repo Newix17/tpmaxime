@@ -172,3 +172,47 @@ h2{
     text-shadow: 3px 3px 3px rgb(139, 137, 137);
     font-family: 'Franklin Gothic Medium';
 }
+
+@media screen and (max-width: 1200px){
+    body{
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    nav{
+        margin:auto;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height:60px;
+        margin-bottom: 20px;
+        width:auto;
+    }
+    ul{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        height:60px;
+    }
+    aside{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height:auto;
+        justify-self: center;
+        align-content: center;
+        margin-bottom: 10px;
+        margin-left:auto;
+    }
+    aside img{
+        width:15%;
+        height:15%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .article{
+        display:flex;
+        flex-direction: column;
+    }
+}
