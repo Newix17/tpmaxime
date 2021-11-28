@@ -29,6 +29,8 @@ header img{
     box-shadow: 3px 3px 5px rgb(204, 200, 200);
 }
 
+/*menu de gauche*/
+
 nav{
     margin: 15px;
     margin-top: 0;
@@ -74,6 +76,8 @@ a:visited{
     color:rgb(68, 35, 35);
 }
 
+/*Galerie à droite*/
+
 aside{
     grid-column: 3;
     height: 60vw;
@@ -88,9 +92,33 @@ aside{
     margin-top:0;
 }
 
+aside img{
+    width:10vw;
+    margin-bottom: 15px;
+    justify-self: center;
+    border: solid 1px;
+    box-shadow: 5px 5px 7px rgb(58, 57, 57);
+}
+
+aside img:hover{
+    box-shadow: 2px 2px 3px rgb(17, 17, 17);
+    transition: 0.5s;
+}
+
+aside h2{
+    text-align: center;
+}
+
+/*Main section avec les articles*/
+
 section{
     grid-column: 2;
     grid-row: 2;
+}
+
+h2{
+    text-shadow: 3px 3px 3px rgb(139, 137, 137);
+    font-family: 'Franklin Gothic Medium';
 }
 
 .div_title{
@@ -133,23 +161,7 @@ section div img{
     grid-column: 1 / span 2;
 }
 
-aside img{
-    width:10vw;
-    margin-bottom: 15px;
-    justify-self: center;
-    border: solid 1px;
-    box-shadow: 5px 5px 7px rgb(58, 57, 57);
-}
-
-aside img:hover{
-    box-shadow: 2px 2px 3px rgb(17, 17, 17);
-    transition: 0.5s;
-
-}
-
-aside h2{
-    text-align: center;
-}
+/*pied de page avec menu*/
 
 footer{
     grid-row: 3;
@@ -173,10 +185,9 @@ footer{
     width:90px;
 }
 
-h2{
-    text-shadow: 3px 3px 3px rgb(139, 137, 137);
-    font-family: 'Franklin Gothic Medium';
-}
+
+ 
+/*-------Responsive part, for screen under 1200px*/
 
 @media screen and (max-width: 1200px){
     body{
@@ -192,12 +203,14 @@ h2{
         height:60px;
         margin-bottom: 20px;
         width:auto;
+        width:95vws;
     }
     ul{
         display:flex;
         flex-direction:row;
         justify-content: space-evenly;
         height:60px;
+        width:95vw;
     }
     aside{
         display:flex;
@@ -208,16 +221,27 @@ h2{
         align-content: center;
         margin-bottom: 10px;
         margin-left:auto;
+        margin-right:auto;
+        align-self:center;
     }
     aside img{
         width:15%;
         height:15%;
+        align-self:center;
+        margin-top:15px;
     }
-}
+
+  
+    
+/*Responsive for devices under 900px*/
 
 @media screen and (max-width: 900px){
     .article{
         display:flex;
         flex-direction: column;
+    }
+
+    header img{
+        width:80%;
     }
 }
